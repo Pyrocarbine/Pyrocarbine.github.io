@@ -20,7 +20,6 @@ a.addspace{
     display: inline;
 }
 div.Education-texts{
-    display:inline-block; 
     line-height: normal; 
     vertical-align: middle;
 }
@@ -47,10 +46,12 @@ div.projects{
     background: #aecffd;
 }
 div.School{
-    height: 100px; 
-    line-height: 14.375rem; 
-    text-align: left;
-    padding-left: 5%;
+    display:grid;
+    display: grid;
+    align-items:center;
+    grid-template-columns: 0.6fr 1fr;
+    column-gap: 5rem;
+    width: 80%;
 }
 
 h3.Title{
@@ -71,13 +72,13 @@ img.Chip-8{
 img.FHsecondary-photo{
     width: 16.5rem;
     height: 14.375rem;
-    float: left;
+    margin-left:auto;
     margin-right:3rem;
 }
 img.Waterloo-logo{
     width: 16.5rem;
     height: 14.375rem;
-    float: left;
+    margin-left:auto;
     margin-right:3rem;
 }
 p.Contests-description{
@@ -147,11 +148,11 @@ td.a_project {
     width: 600px;
 }
 #About_Me-description{
-    font-size: 1.25rem; 
+    font-size: 20px; 
     font-family: 'Roboto';
 }
 #About_Me-title{
-    font-size: 2.5rem;
+    font-size: 40px;
     text-align: center;
 }
 #club_image{
