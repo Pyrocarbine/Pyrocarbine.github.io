@@ -19,9 +19,14 @@ a.github-link{
 a.addspace{
     display: inline;
 }
+div.center{
+    margin-left:auto;
+    margin-right:auto;
+}
 div.Education-texts{
     line-height: normal; 
     vertical-align: middle;
+    text-align: center;
 }
 div.email_button{
     text-align:center;
@@ -30,7 +35,7 @@ div.new-part{
     padding-top: 30px;
 }
 div.new-section{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 div.projects{
     border: blanchedalmond;
@@ -53,7 +58,9 @@ div.School{
     column-gap: 5rem;
     width: 80%;
 }
-
+div.small-divide{
+    padding-top:20px;
+}
 h3.Title{
     text-align: center;
     font-size: 40px;
@@ -70,16 +77,16 @@ img.Chip-8{
     height: 230;
 }
 img.FHsecondary-photo{
-    width: 16.5rem;
-    height: 14.375rem;
+    width: 22rem;
+    height: 18rem;
     margin-left:auto;
-    margin-right:3rem;
+    margin-right:auto;
 }
 img.Waterloo-logo{
-    width: 16.5rem;
-    height: 14.375rem;
+    width: 22rem;
+    height: 18rem;
     margin-left:auto;
-    margin-right:3rem;
+    margin-right:auto;
 }
 p.Contests-description{
     font-family: 'Inter';
