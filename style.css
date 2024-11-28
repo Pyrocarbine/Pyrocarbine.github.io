@@ -59,23 +59,54 @@ div.School{
     width: 80%;
 }
 div.small-divide{
-    padding-top:20px;
+    padding-top:30px;
 }
+
 h1.name{
-    padding-left:2.5rem;
-    font-size:60px;
+    font-size: 60px;
 }
+
 h3.Title{
     text-align: center;
     font-size: 40px;
 }
-img.About_me-image{
-    display:block;
-    margin-left:auto;
-    border-radius: 50%;
-    height: 220px;
-    width: 220px;
+h4.link{
+    font-size: 25px;
 }
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_direct{
+    width: 125px;
+    text-align: center;
+    text-decoration: none;
+    color: #445f6e;
+}
+
+.header_links{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 30px;
+}
+
+.header_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    gap: 8px;
+}
+
+
 img.Chip-8{
     width: 44rem;
     height: 21rem;
@@ -90,12 +121,31 @@ img.spotify-image{
     height: 21rem;
     width: 22rem;
 }
+img.octical-image{
+    height: 21rem;
+    width: 22rem;
+}
+img.Profile-image{
+    display:block;
+    margin-left:auto;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+img.small-Profile-image{
+    margin-left:10px;
+    margin-right: 30px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
 img.Waterloo-logo{
     width: 22rem;
     height: 18rem;
     margin-left:auto;
     margin-right:auto;
 }
+
 p.Contests-description{
     font-family: 'Inter';
     font-size: 15px;
@@ -179,9 +229,4 @@ td.a_project {
 #Email{
     width: 50%;
     height: 5rem;
-}
-#icons{
-    float: right;
-    padding-top:60px;
-    padding-right:2.5rem;
 }
