@@ -1,6 +1,9 @@
 html{
     font-size:1vw;
 }
+a.addspace{
+    display: inline;
+}
 a.insta-link{
     color: #000000;
     opacity: 0.5;
@@ -16,12 +19,31 @@ a.github-link{
     opacity: 0.5;
     text-decoration: none;
 }
-a.addspace{
-    display: inline;
+a.project-link{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
 }
 div.center{
     margin-left:auto;
     margin-right:auto;
+}
+div.container{
+    display:flex; 
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+div.edu_container{
+    display:flex; 
+    flex-direction: row;
+    gap: 12.5rem;
+    justify-content: center;
+    align-items: center;
 }
 div.Education-texts{
     line-height: normal; 
@@ -50,18 +72,21 @@ div.projects{
     margin-right: auto;
     background: #aecffd;
 }
-div.School{
-    display:grid;
-    display: grid;
-    align-items:center;
-    grid-template-columns: 0.6fr 1fr;
-    column-gap: 5rem;
-    width: 80%;
+div.name{
+    padding-top: 10px;
+}
+div.school{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 div.small-divide{
     padding-top:30px;
 }
-
+div.small-project-divide{
+    padding-top:40px;
+}
 h1.name{
     font-size: 60px;
 }
@@ -79,6 +104,7 @@ h4.link{
     padding: 20px;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 .header_direct{
@@ -108,7 +134,7 @@ h4.link{
 
 
 img.Chip-8{
-    width: 44rem;
+    width: 22rem;
     height: 21rem;
 }
 img.FHsecondary-photo{
@@ -116,10 +142,6 @@ img.FHsecondary-photo{
     height: 18rem;
     margin-left:auto;
     margin-right:auto;
-}
-img.spotify-image{
-    height: 21rem;
-    width: 22rem;
 }
 img.octical-image{
     height: 21rem;
@@ -139,11 +161,13 @@ img.small-Profile-image{
     height: 100px;
     width: 100px;
 }
+img.spotify-image{
+    height: 21rem;
+    width: 22rem;
+}
 img.Waterloo-logo{
     width: 22rem;
     height: 18rem;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 p.Contests-description{
@@ -167,6 +191,12 @@ p.Extra-curricular_point{
 p.Extra-curricular_description{
     font-family: 'Inter';
     font-size: 15px;
+}
+p.Project_name{
+    text-align: center;
+    font-size: 24px;
+    color: darkblue;
+    padding-top: 20px;
 }
 section::after {
     content: "";
